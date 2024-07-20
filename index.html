@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Qualifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Interview Qualifier</h1>
+    <div class="container">
+        <p>Enter your Graduation Percentage:</p>
+        <input type="number" id="percentage" placeholder="Enter Percentage">
+    </div>
+    <div class="container">
+        <p>Select Gender:</p>
+        <label for="male">Male</label>
+        <input type="checkbox" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="checkbox" id="female" name="gender">
+    </div>
+    <button onclick="checkQualification()">Check Qualification</button>
+    <p id="message"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>

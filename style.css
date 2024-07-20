@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    margin-bottom: 10px;
+}
+
+#message {
+    font-weight: bold;
+    margin-top: 10px;
+}
